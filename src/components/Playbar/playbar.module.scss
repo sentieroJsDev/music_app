@@ -1,0 +1,53 @@
+.playbar {
+  position: fixed;
+  background-color: #9340fe;
+
+  width: calc(100vw - 40px);
+  height: 70px;
+
+  left: 0;
+  bottom: 0;
+
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  gap: 30px;
+
+  & > .togglePlay {
+    transform: scale(120%) !important;
+  }
+
+  & > p {
+    font-size: 14px;
+  }
+
+  & * {
+    color: white !important;
+  }
+}
+
+.preview {
+  width: 55px;
+  height: 55px;
+  border-radius: 10px;
+}
+
+.credits {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  letter-spacing: 2px;
+
+  & > p {
+    font-size: 14px;
+  }
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-basis: 600px;
+  margin-left: auto;
+}
